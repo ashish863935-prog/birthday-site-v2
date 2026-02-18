@@ -1,5 +1,5 @@
 import "./globals.css";
-import FloatingHearts from "./components/floatingHearts";
+import FloatingHearts from "./components/floatinghearts";
 
 export const metadata = {
   title: "Happiest Birthday",
