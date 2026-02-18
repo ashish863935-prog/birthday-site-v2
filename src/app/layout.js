@@ -1,18 +1,20 @@
 import "./globals.css";
+import FloatingHearts from "./components/floatingHearts";
 
 export const metadata = {
-  title: "Happy Birthday!",
-  description: "An animated birthday surprise filled with emotions, words from the heart, and a letter that types itself — just for you."
+  title: "Happiest Birthday",
+  description:
+    "A special birthday surprise",
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body
-        className={`antialiased`}
-      >
+      <body className="antialiased">
+        <FloatingHearts />
         {children}
       </body>
     </html>
   );
 }
+

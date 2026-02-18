@@ -11,18 +11,17 @@ export default function Letter() {
     const [currentText, setCurrentText] = useState("")
     const [showCursor, setShowCursor] = useState(true)
 
-    const letterText = `My Dearest Madam Jii,
-
-On this very special day, I want you to know how incredibly grateful I am to have you in my life. Your birthday isn't just a celebration of another year - it's a celebration of all the joy, laughter, and beautiful memories you bring to this world.
-
-You have this amazing ability to light up any room you enter, to make people smile even on their darkest days, and to spread kindness wherever you go. Your heart is pure gold, and your spirit is absolutely infectious.
-
-Thank you for being the wonderful, amazing, absolutely fantastic person that you are. The world is so much brighter because you're in it.
-
-Happy Birthday, beautiful soul! 🎂✨
+    const letterText = `To miss Anshika,
+Happy Birthday gungun! Today is your special day, a time to celebrate you and all the incredible moments we’ve shared.
+ Reflect on the joy, love, and laughter that you’ve brought into the lives of those around you.
+  This year, embrace the happiness, success, and unforgettable memories that await you. Let your birthday be filled with love, joy, and everything that brings a smile to your face.
+   Here’s to another fantastic year ahead, full of new adventures and wonderful experiences.
+ Make the most of it and cherish every moment!
+ And i wish u get cure with every possible wounds and scars anshika
+ 🎂✨
 
 With all my love and warmest wishes,
-Forever Yours 💕`
+from ASHH 💕`
 
     useEffect(() => {
         if (showText) {
@@ -77,9 +76,9 @@ Forever Yours 💕`
                     transition={{ delay: 0.3 }}
                 >
                     <h1 className="text-4xl md:text-6xl py-1 md:py-2 font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-400 to-indigo-400 mb-4">
-                        A Special Letter
+                        A letter made
                     </h1>
-                    <p className="text-lg text-purple-300">Just for you, on your special day 💌</p>
+                    <p className="text-lg text-purple-300">Just for you, on your  day 💌</p>
                 </motion.div>
 
                 <motion.div

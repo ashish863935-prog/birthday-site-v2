@@ -211,7 +211,7 @@ export default function HappyBirthday({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1 }}
                 >
-                    Happy Birthday
+                    HAPPIEST BIRTHDAY
                 </motion.h1>
 
                 <motion.h2
@@ -220,7 +220,7 @@ export default function HappyBirthday({ onNext }) {
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 1.3 }}
                 >
-                    Madam Jii<span className="text-white">💕</span>
+                    Anshika<span className="text-white">💕</span>
                 </motion.h2>
 
                 <motion.div
@@ -232,7 +232,7 @@ export default function HappyBirthday({ onNext }) {
                         textShadow: "0 0 10px rgba(0,0,0,0.8)",
                     }}
                 >
-                    🎉 It's your special day! 🎉
+                    🎉 It's your day! 🎉
                 </motion.div>
             </motion.div>
 
@@ -247,7 +247,7 @@ export default function HappyBirthday({ onNext }) {
                     className="bg-gradient-to-r from-pink-600 via-purple-600 to-indigo-600 hover:from-pink-500 hover:via-purple-500 hover:to-indigo-500 text-white text-xl px-8 py-4 rounded-full shadow-xl border-2 border-white/70 transition-all duration-300 hover:scale-[103%]"
                 >
                     <motion.div className="flex items-center space-x-2" whileHover={{ x: 5 }}>
-                        <span>See Our Moments</span>
+                        <span>Click for surprise</span>
                         <ArrowRight className="w-6 h-6" />
                     </motion.div>
                 </button>
